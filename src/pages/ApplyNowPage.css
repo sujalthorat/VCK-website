@@ -1,0 +1,23 @@
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #52d2d2;
+
+}
+
+.content {
+  height: 80%;
+  width: 70%;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+ol{
+  padding-left: 100px;
+}
+ol li{
+  padding: 10px 0px;
+}

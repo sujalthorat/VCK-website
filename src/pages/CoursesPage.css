@@ -1,0 +1,78 @@
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #52d2d2;
+
+}
+
+.content {
+  height: 80%;
+  width: 70%;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: auto;
+}
+.content h1{
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+  color: #007bff;
+}
+.content h2{
+font-size: 30px;
+padding: 20px;
+text-align: left;
+color: #020202;
+}
+.content ul{
+font-size: 20px;
+padding: 20px;
+text-align: left;
+color: #020202;
+}
+.table{
+      width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px #0000000d;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.table th, .table td{
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: .95em;
+}
+.inquire{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content p{
+font-size: 17px;
+padding: 20px;
+text-align: left;
+color: #020202;
+}
+.inquire button{
+   background-color: #29a847;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border:  none; 
+}
